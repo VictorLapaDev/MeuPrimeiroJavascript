@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="img/icons8-abelha-64.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nota Aluno</title>
+</head>
+<body>
+    <header>
+        <h1>Boletim</h1>
+    </header>
+
+    <div id="bloco_titulo">
+        <h1>Adicione as informações do aluno:</h1>
+    </div>
+
+        <div id="bloco_input">
+        <input class="caixas_input" id="nome" type="text" placeholder="Nome do Aluno">
+        <input class="caixas_input" id="nota1" type="number" placeholder="Nota 1ºBimestre">
+        <input class="caixas_input" id="nota2" type="number" placeholder="Nota 2ºBimestre">
+        <input class="caixas_input" id="nota3" type="number" placeholder="Nota 3ºBimestre">
+        </div>
+
+    <div id="bloco_titulo">
+        <button id="button" onclick="calcular()">Clique aqui</button>
+    </div>
+
+    
+    <div class="dentro">
+        <div class="caixa_reult">
+            <div id="indice_aluno">
+                <p class="indice" id="nomeM">O nome do aluno é: </p><br>
+                <p class="indice" id="nota01">A nota do 1ºBimestre é: </p><br>
+                <p class="indice" id="nota02">A nota do 2ºBimestre é: </p><br>
+                <p class="indice" id="nota03">A nota do 3ºBimestre é: </p><br>
+            </div>
+
+            <div id="maior_menor">
+            <p class="maior_menor" id="maior_nota">A maior nota dele é:</p><br>
+            <p class="maior_menor" id="menor_nota">A menor nota dele é:</p><br>
+            </div>
+
+            <div id="mf_bloco">
+                <p id="mf">A média final é: </p>
+                    <div class="conceito">
+                    <p id="conceito">O conceito do aluno é: <br>Ele esta: </p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script01.js"></script>
+</body>
+</html>

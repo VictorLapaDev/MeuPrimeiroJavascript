@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(241, 241, 103);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-image: url("../img/gifbee.jpg") ;
+    background-size: 250px;
+    background-position:center center;
+}
+
+#bloco_titulo{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: bold;
+}
+
+#bloco_input{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caixas_input{
+    border-radius: 5px;
+    border-color: aqua;
+    height: 25px;
+
+}
+
+#button{
+    width: 100px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: #00ffea;
+    color: black;
+    border-color: aqua;
+}
+
+#button:hover{
+    background-color: aqua;
+    color: black;
+    scale: 1.3;
+}
+
+#indice_aluno{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indice{
+    padding: 10px 10px;
+    border: solid 2px aqua;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+#maior_menor{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+
+#mf_bloco{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.conceito{
+    display: grid;
+    justify-content: center;
+    width: 200px;
+}
+
+#maior_nota, #menor_nota{
+    padding: 10px 10px;
+    border: solid 2px aqua;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#mf, #conceito{
+    padding: 10px 10px;
+    border: solid 2px aqua;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.caixa_reult{
+    border: solid 2px aqua;
+    max-width: 90%;
+    margin-left: 75px;
+    border-radius: 50px;
+    background-color: #00ffeaa1;
+}
+
+#dentro{
+    display: flex;
+    justify-content: center;
+}
+
+#aprovado{
+    color: rgb(0, 184, 3);
+}
+
+#recuperacao{
+    color: orange;
+}
+
+#reprovado{
+    color: red;
+}
+
+
