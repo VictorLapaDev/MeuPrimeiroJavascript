@@ -39,6 +39,7 @@ header{
     background-color: #00ffea;
     color: black;
     border-color: aqua;
+    cursor: pointer;
 }
 
 #button:hover{
